@@ -13,23 +13,23 @@ Because the buttons, PayPal offers do not fit to other buttons which are often n
 
 ## :eyes: Demonstration
 
-[![Donate with PayPal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QT54MSJR6QU7Y)
+[![Donate with PayPal][donate-paypal-button]][donate-paypal-link]
 
 ### Markdown
 
 ```markdown
-[
-  ![Donate with PayPal]
-  (https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)
-]
-(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QT54MSJR6QU7Y)
+[![Donate with PayPal][donate-paypal-button]][donate-paypal-link]
+
+<!-- LINK GROUP -->
+[donate-paypal-button]: https://raw.githubusercontent.com/cybcon/paypal-donate-button/refs/heads/master/paypal-donate-button_200x77.png
+[donate-paypal-link]: https://www.paypal.com/donate/?hosted_button_id=BHGJGGUS6RH44
 ```
 
 ### HTML
 
 ```html
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QT54MSJR6QU7Y">
-  <img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal" />
+<a href="https://www.paypal.com/donate/?hosted_button_id=BHGJGGUS6RH44">
+  <img src="https://raw.githubusercontent.com/cybcon/paypal-donate-button/refs/heads/master/paypal-donate-button_200x77.png" alt="Donate with PayPal" />
 </a>
 ```
 
@@ -40,3 +40,7 @@ This project does not use or include any resource from PayPal. It is created com
 **Important**
 
 Use this project at your own risc. The authors and contributors will not be able to provide any help if PayPal complains about usage.
+
+<!-- LINK GROUP -->
+[donate-paypal-button]: https://raw.githubusercontent.com/cybcon/paypal-donate-button/refs/heads/master/paypal-donate-button_200x77.png
+[donate-paypal-link]: https://www.paypal.com/donate/?hosted_button_id=BHGJGGUS6RH44
